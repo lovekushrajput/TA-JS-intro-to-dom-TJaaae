@@ -1,5 +1,6 @@
 1. Change the title of the page to `Hello AltCampus!`
 
+
 2. Select the element using the children property:
 
    - Select the `h1` element and change the value to `Learning DOM`
