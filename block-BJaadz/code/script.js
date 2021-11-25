@@ -146,4 +146,3 @@ ancher1.href = `https://altcampus.school`
 ancher2.href = `https://google.com`
 // Append both the elements to box 5 you selected above.
  document.querySelector(".five").append(ancher1,ancher2)
-//  right
