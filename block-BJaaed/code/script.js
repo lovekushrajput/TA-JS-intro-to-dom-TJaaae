@@ -136,7 +136,8 @@ books.forEach((char) => {
     h2.innerText = char.title;
     let h3 = document.createElement("h3") 
     h3.innerText = `Auther:${char.author}`
-    let btn = document.createElement("button")
+    let btn = document.createElement("a")
+    btn.href = char.website
     btn.innerText = "Buy Now"
     li.append(img,h2,h3,btn)
     ul.append(li)
