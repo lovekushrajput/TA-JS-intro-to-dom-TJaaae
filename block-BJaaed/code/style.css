@@ -58,15 +58,14 @@ img{
 }
 .imgElm{
     width: 30%;
-    padding: 10px;
-  
-
+    padding-top: 10px;
 }
 
 
 li{
     padding: 7px;
     margin-top: 15px;
+    margin-bottom: 0px;
     margin-left: 20px; 
     background-color: white;
     width: 30%;
@@ -74,17 +73,21 @@ li{
 
 h2{
     color: black;
-    margin: 2px;
+    padding:  2px;
 }
 h3{
+    margin-top: 10px;
     color: rgb(118,118,118);
-    margin: 5px;
+    margin-bottom:  18px;
+    /* margin-top: 1px; */
 }
- button{
+a{
+    text-decoration: none;
     color: white;
     background-color: rgb(55,126,126);
-    padding: 8px;
-    border: none;
-    border-radius: 2px;
+    padding: 3px;
+    padding-left: 0.5rem;
+    padding-right: 00.5rem;
+    border-radius: 4px;
  }
  
